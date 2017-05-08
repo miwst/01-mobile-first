@@ -23,6 +23,14 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu{
+  font-size: 3em;
+  position: relative;
+  top: 14px;
+  right: 20px;
+  float: right;
+}
+
 .icon-home:before {
 	content: "\e908";
 }
