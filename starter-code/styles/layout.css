@@ -16,6 +16,10 @@
   max-width: 80%;
 }
 
+.byline {
+  text-align: center;
+}
+
 #filters select {
   width: 90%;
   margin: .2em 5%;
@@ -26,10 +30,15 @@
 
   .icon-menu{
     visibility: hidden;
+    display: none;
+    z-index: 1;
   }
 
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
     float: none;
   }
 
@@ -38,8 +47,17 @@
     margin: .2em .2em;
   }
 
-  #filters li {
+  #ul {
+    padding: none;
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #ul li {
     width: 20em;
     display: inline;
+    border-bottom: none;
   }
 }
